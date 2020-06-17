@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 139259084}
   - component: {fileID: 139259083}
   m_Layer: 0
-  m_Name: Floor
+  m_Name: Floor for Room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -207,12 +207,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 139259082}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.6, y: 19, z: -9.9}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 23.512815, y: -0.37861252, z: -6.869219}
   m_LocalScale: {x: 100, y: 1, z: 100}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 937802577}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &250108552
 GameObject:
@@ -301,13 +301,19 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 250108552}
   m_LocalRotation: {x: -0, y: -0.2669156, z: -0, w: -0.96371996}
-  m_LocalPosition: {x: -22.1, y: 39.23, z: 0.83}
-  m_LocalScale: {x: 6.077605, y: 4.153105, z: 0.05412436}
+  m_LocalPosition: {x: 7.0128155, y: 19.851387, z: 3.8607807}
+  m_LocalScale: {x: 6.077605, y: 4.153105, z: 0.054124355}
   m_Children:
   - {fileID: 2069519135}
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 937802577}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 390.962, z: 0}
+--- !u!4 &390015052 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 498420, guid: 5a12218ea7e5b7a4e8b89d25e07d237d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1170492852}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &408049973
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,13 +598,50 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 935188367}
   m_LocalRotation: {x: -0, y: 0.94614404, z: -0, w: 0.323746}
-  m_LocalPosition: {x: -22.13, y: 29.23, z: 0.68}
-  m_LocalScale: {x: 5.761859, y: 7.96737, z: 0.053591162}
+  m_LocalPosition: {x: 6.9828167, y: 9.851387, z: 3.7107809}
+  m_LocalScale: {x: 5.7618594, y: 7.96737, z: 0.053591162}
   m_Children:
   - {fileID: 1111792791}
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 937802577}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 142.22101, z: 0}
+--- !u!1 &937802576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 937802577}
+  m_Layer: 0
+  m_Name: Elina Room
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &937802577
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937802576}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -29.112816, y: 19.378613, z: -3.0307808}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1706710621}
+  - {fileID: 1109440895}
+  - {fileID: 935188371}
+  - {fileID: 250108556}
+  - {fileID: 2037330250}
+  - {fileID: 139259086}
+  - {fileID: 390015052}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -862,12 +905,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1109440891}
   m_LocalRotation: {x: -0, y: -0.52907795, z: -0, w: -0.8485732}
-  m_LocalPosition: {x: -21.75, y: 22.06, z: 0.36}
-  m_LocalScale: {x: 9.204015, y: 5.961561, z: 0.16883661}
+  m_LocalPosition: {x: 7.362816, y: 2.681387, z: 3.390781}
+  m_LocalScale: {x: 9.204014, y: 5.961561, z: 0.16883661}
   m_Children:
   - {fileID: 1049149289}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 937802577}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -296.114, z: 0}
 --- !u!1 &1111792790
 GameObject:
@@ -967,23 +1010,23 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 937802577}
     m_Modifications:
     - target: {fileID: 198420, guid: 5a12218ea7e5b7a4e8b89d25e07d237d, type: 3}
       propertyPath: m_Name
-      value: 360SphereVideo
+      value: Elina Video Sphere
       objectReference: {fileID: 0}
     - target: {fileID: 498420, guid: 5a12218ea7e5b7a4e8b89d25e07d237d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.2
+      value: 20.912815
       objectReference: {fileID: 0}
     - target: {fileID: 498420, guid: 5a12218ea7e5b7a4e8b89d25e07d237d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.8
+      value: -8.578612
       objectReference: {fileID: 0}
     - target: {fileID: 498420, guid: 5a12218ea7e5b7a4e8b89d25e07d237d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -12.4
+      value: -9.369219
       objectReference: {fileID: 0}
     - target: {fileID: 498420, guid: 5a12218ea7e5b7a4e8b89d25e07d237d, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1003,7 +1046,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 498420, guid: 5a12218ea7e5b7a4e8b89d25e07d237d, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 498420, guid: 5a12218ea7e5b7a4e8b89d25e07d237d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1035,7 +1078,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11498420, guid: 5a12218ea7e5b7a4e8b89d25e07d237d, type: 3}
       propertyPath: m_VideoPath
-      value: 360Test_small.mp4
+      value: Elina Video/360Test_small.mp4
       objectReference: {fileID: 0}
     - target: {fileID: 11498420, guid: 5a12218ea7e5b7a4e8b89d25e07d237d, type: 3}
       propertyPath: m_Volume
@@ -1043,24 +1086,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a12218ea7e5b7a4e8b89d25e07d237d, type: 3}
+--- !u!1 &1381515346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1381515347}
+  m_Layer: 0
+  m_Name: Jake Room
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1381515347
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381515346}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -29.112816, y: 19.378613, z: -3.0307808}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1592692906 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0,
     type: 3}
   m_PrefabInstance: {fileID: 1975352900}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1592692912
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1592692906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faf35b5442c854e9f9b435e4e1e05592, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1592692913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1079,18 +1140,15 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1975352900}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1618822388
-MonoBehaviour:
+--- !u!45 &1618822384
+Skybox:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1618822383}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faf35b5442c854e9f9b435e4e1e05592, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: e2c11ed03312f4926a2dd7a2ecd07988, type: 2}
 --- !u!1 &1706710617
 GameObject:
   m_ObjectHideFlags: 0
@@ -1139,12 +1197,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1706710617}
   m_LocalRotation: {x: -0, y: 0.9685062, z: -0, w: 0.24898945}
-  m_LocalPosition: {x: -21.8, y: 16.150002, z: 0.22806668}
+  m_LocalPosition: {x: 7.3128166, y: -3.228611, z: 3.2588475}
   m_LocalScale: {x: 8.653408, y: 5.972515, z: 0.099}
   m_Children:
   - {fileID: 408049974}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 937802577}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 151.16501, z: 0}
 --- !u!137 &1706710622
 SkinnedMeshRenderer:
@@ -1197,6 +1255,36 @@ SkinnedMeshRenderer:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 4.326705, y: 2.9862576, z: 0.04950013}
   m_DirtyAABB: 0
+--- !u!1 &1714708820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1714708821}
+  m_Layer: 0
+  m_Name: Karyn Room
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1714708821
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714708820}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -29.112816, y: 19.378613, z: -3.0307808}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1975352900
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1242,7 +1330,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1290,6 +1378,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+--- !u!1 &2023114112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2023114113}
+  m_Layer: 0
+  m_Name: Ramona room
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2023114113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023114112}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -29.112816, y: 19.378613, z: -3.0307808}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2037330246
 GameObject:
   m_ObjectHideFlags: 0
@@ -1303,7 +1421,7 @@ GameObject:
   - component: {fileID: 2037330248}
   - component: {fileID: 2037330247}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Six Sided Picture Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1376,12 +1494,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2037330246}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -21.95, y: 35.23, z: 0.67}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.162815, y: 15.851387, z: 3.7007809}
   m_LocalScale: {x: 3.318912, y: 3.3189118, z: 3.3189113}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 937802577}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2069519134
 GameObject:
