@@ -821,8 +821,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a252216b2fc2643f39285e0d2ddb8e8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stayTime: 3
-  fadeoutTime: 1
+  stayTime: 30
+  fadeoutTime: 10
 --- !u!1 &408049973
 GameObject:
   m_ObjectHideFlags: 0
@@ -3307,8 +3307,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a252216b2fc2643f39285e0d2ddb8e8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stayTime: 3
-  fadeoutTime: 1
+  stayTime: 30
+  fadeoutTime: 10
 --- !u!4 &1245100233 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: ade617c3179c04910ae0848c807f75b1,
@@ -5253,8 +5253,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a252216b2fc2643f39285e0d2ddb8e8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stayTime: 3
-  fadeoutTime: 1
+  stayTime: 30
+  fadeoutTime: 10
 --- !u!1 &2146375827
 GameObject:
   m_ObjectHideFlags: 0
