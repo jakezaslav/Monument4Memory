@@ -726,6 +726,7 @@ GameObject:
   - component: {fileID: 393083199}
   - component: {fileID: 393083198}
   - component: {fileID: 393083197}
+  - component: {fileID: 393083200}
   m_Layer: 0
   m_Name: F > fly
   m_TagString: Untagged
@@ -808,6 +809,20 @@ Transform:
   m_Father: {fileID: 1208486882}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 34.300003, y: 180.00002, z: 0}
+--- !u!114 &393083200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393083196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a252216b2fc2643f39285e0d2ddb8e8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stayTime: 3
+  fadeoutTime: 1
 --- !u!1 &408049973
 GameObject:
   m_ObjectHideFlags: 0
@@ -3197,6 +3212,7 @@ GameObject:
   - component: {fileID: 1229173911}
   - component: {fileID: 1229173910}
   - component: {fileID: 1229173909}
+  - component: {fileID: 1229173912}
   m_Layer: 0
   m_Name: space bar > jump
   m_TagString: Untagged
@@ -3279,6 +3295,20 @@ Transform:
   m_Father: {fileID: 1208486882}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 34.300003, y: 180.00002, z: 0}
+--- !u!114 &1229173912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229173908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a252216b2fc2643f39285e0d2ddb8e8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stayTime: 3
+  fadeoutTime: 1
 --- !u!4 &1245100233 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: ade617c3179c04910ae0848c807f75b1,
@@ -5128,6 +5158,7 @@ GameObject:
   - component: {fileID: 2109934420}
   - component: {fileID: 2109934419}
   - component: {fileID: 2109934418}
+  - component: {fileID: 2109934421}
   m_Layer: 0
   m_Name: arrow keys/WASD > move
   m_TagString: Untagged
@@ -5210,6 +5241,20 @@ Transform:
   m_Father: {fileID: 1208486882}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 34.300003, y: 180.00002, z: 0}
+--- !u!114 &2109934421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109934417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a252216b2fc2643f39285e0d2ddb8e8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stayTime: 3
+  fadeoutTime: 1
 --- !u!1 &2146375827
 GameObject:
   m_ObjectHideFlags: 0
