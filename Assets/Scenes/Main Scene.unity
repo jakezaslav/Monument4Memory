@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.98027486, g: 0.6137021, b: 0.4787013, a: 1}
+  m_IndirectSpecularColor: {r: 0.9802075, g: 0.613703, b: 0.47915393, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2904,6 +2904,7 @@ GameObject:
   - component: {fileID: 1148045658}
   - component: {fileID: 1148045657}
   - component: {fileID: 1148045656}
+  - component: {fileID: 1148045659}
   m_Layer: 0
   m_Name: Title
   m_TagString: Untagged
@@ -2986,6 +2987,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &1148045659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148045655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a252216b2fc2643f39285e0d2ddb8e8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stayTime: 30
+  fadeoutTime: 10
 --- !u!1001 &1170492852
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3306,7 +3321,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 1751d66ba405c5e4d86294210ae1c4ff, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3315,7 +3330,7 @@ AudioSource:
   Priority: 80
   DopplerLevel: 0
   MinDistance: 0
-  MaxDistance: 19.81
+  MaxDistance: 50
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
